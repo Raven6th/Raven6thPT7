@@ -1,0 +1,213 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    margin: 1;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.product {
+    text-align: center;
+    /* margin: 20px; */
+}
+
+.register {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* .product {
+    background-color: blue;
+} */
+
+.product, .gallery {
+    flex: 1;
+    align-items: center;
+}
+
+button .product {
+    width: 10%;
+}
+
+.producttitle {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.gallery ul {
+    list-style: circle;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.gallery ul li {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.about {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-top: 10px solid #333;
+    margin-top: 20px;
+}
+
+.about h2 {
+    text-align: center;
+    /* color: #333; */
+}
+
+.about p {
+    text-align: left;
+    color: #333;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.about ul li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.to {
+    color: black;
+}
+
+.me {
+    color: #333;
+}
+
+.lighttext {
+    color: white;
+}
+
+.box-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.box-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+    align-items: center;
+}
+
+.box-content-dark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+    align-items: center;
+}
+
+input .buton {
+    margin-top: 20px;
+}
+
+.butonresult {
+    margin-top: 20px;
+}
+
+.register {
+    text-align: center;
+}
+
+.register h2 {
+    display: inline; /* To keep the <h2> centered */
+    text-align: center;
+    /* Additional styles for the <h2> can be added here */
+}
+
+.register form {
+    display: inline-block;
+    text-align: left;
+    /* Additional styles for the form can be added here */
+}
